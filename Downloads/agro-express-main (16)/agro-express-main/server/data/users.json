@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "mock_user_123",
+    "name": "Demo User",
+    "email": "demo@example.com",
+    "password": "password123",
+    "mobile": "1234567890",
+    "address": "123 Green Street, Farmville",
+    "createdAt": "2026-02-07T09:30:00.000Z",
+    "updatedAt": "2026-02-07T09:30:00.000Z"
+  },
+  {
+    "_id": "2",
+    "name": "joy",
+    "email": "joy@gmail.com",
+    "password": "Joy@1",
+    "mobile": "1234567890",
+    "address": "Bhimavaram,west godavari",
+    "createdAt": "2026-02-07T09:55:29.704Z",
+    "updatedAt": "2026-02-07T09:55:29.704Z"
+  },
+  {
+    "_id": "3",
+    "name": "david",
+    "email": "david@gmail.com",
+    "password": "David@1",
+    "mobile": "1234567882",
+    "address": "bvrm",
+    "createdAt": "2026-02-07T09:59:09.491Z",
+    "updatedAt": "2026-02-07T09:59:09.491Z"
+  }
+]

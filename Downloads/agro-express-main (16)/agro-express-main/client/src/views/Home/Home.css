@@ -1,0 +1,88 @@
+.hero-mesh-bg {
+    background-color: #ffffff;
+    background-image:
+        radial-gradient(at 0% 0%, hsla(142, 76%, 36%, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, hsla(0, 84%, 60%, 0.1) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, hsla(142, 76%, 36%, 0.1) 0px, transparent 50%),
+        radial-gradient(at 0% 100%, hsla(0, 0%, 100%, 0.15) 0px, transparent 50%);
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-15px) rotate(1deg);
+    }
+
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+.animate-slide-left {
+    animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slide-right {
+    animation: slideInRight 0.8s ease-out forwards;
+}
+
+.animate-fade-scale {
+    animation: fadeInScale 1s ease-out forwards;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.text-gradient-green {
+    background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

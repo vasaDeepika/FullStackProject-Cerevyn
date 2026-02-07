@@ -1,0 +1,20 @@
+{
+    "name": "agro-express-root",
+    "version": "1.0.0",
+    "description": "Root orchestrator for Agro-Express",
+    "scripts": {
+        "setup": "npm install && npm run install-all",
+        "install:client": "cd client && npm install",
+        "install:server": "cd server && npm install",
+        "install-all": "npm run install:server && npm run install:client",
+        "start:client": "cd client && npm start",
+        "start:server": "cd server && npm start",
+        "start": "node server/index.js",
+        "dev": "concurrently \"npm run start:server\" \"npm run start:client\"",
+        "build": "npm run setup && npm run build:client",
+        "build:client": "cd client && npm run build"
+    },
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

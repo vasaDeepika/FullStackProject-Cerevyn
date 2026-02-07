@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "1",
+    "user": "mock_user_123",
+    "items": [
+      {
+        "title": "Cabbage",
+        "quantity": "1 kg per 30/-",
+        "price": 30,
+        "img": "/cab.jpg"
+      },
+      {
+        "title": "Okra",
+        "quantity": "1 kg per 45/-",
+        "price": 45,
+        "img": "/okra.webp"
+      },
+      {
+        "title": "Bitter Gourd",
+        "quantity": "1 kg per 35/-",
+        "price": 35,
+        "img": "/bitter.webp"
+      },
+      {
+        "title": "Garlic",
+        "quantity": "250 g per 60/-",
+        "price": 60,
+        "img": "/garlic.webp"
+      },
+      {
+        "title": "Bitter Gourd",
+        "quantity": "1 kg per 35/-",
+        "price": 35,
+        "img": "/bitter.webp"
+      }
+    ],
+    "totalAmount": 205,
+    "paymentMode": "cod",
+    "createdAt": "2026-02-07T09:47:15.347Z",
+    "updatedAt": "2026-02-07T09:47:15.347Z"
+  },
+  {
+    "_id": "2",
+    "user": "2",
+    "items": [
+      {
+        "title": "Bitter Gourd",
+        "quantity": "1 kg per 35/-",
+        "price": 35,
+        "img": "/bitter.webp"
+      }
+    ],
+    "totalAmount": 35,
+    "paymentMode": "cod",
+    "createdAt": "2026-02-07T09:56:48.051Z",
+    "updatedAt": "2026-02-07T09:56:48.051Z"
+  },
+  {
+    "_id": "3",
+    "user": "3",
+    "items": [
+      {
+        "title": "Bitter Gourd",
+        "quantity": "1 kg per 35/-",
+        "price": 35,
+        "img": "/bitter.webp"
+      }
+    ],
+    "totalAmount": 35,
+    "paymentMode": "cod",
+    "createdAt": "2026-02-07T10:00:11.685Z",
+    "updatedAt": "2026-02-07T10:00:11.685Z"
+  }
+]
