@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min'
-import Home from "./views/Home/Home"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Home from "./views/Home/Home";
 import ShowProduct from './views/ShowProduct/ShowProduct';
 import About from "./views/About/About";
 import AddProduct from "./views/AddProduct/AddProduct"
